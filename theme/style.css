@@ -495,6 +495,169 @@ color: #fff;
     width: 100%;
   }
 
+.hero {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    min-height: 100dvh;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero-text {
+    max-width: 600px;
+}
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero-text p {
+    font-size: 16px;
+    color: #7a7a7a;
+    margin-bottom: 40px;
+}
+.download-buttons {
+    display: flex;
+    gap: 10px;
+}
+.download-buttons a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.download-buttons .app-store-button {
+    background-color: #85c1e9;
+}
+.download-buttons .google-play-button {
+    background-color: #58d68d;
+}
+.download-buttons a img {
+    height: 30px;
+    margin-right: 10px;
+}
+.hero-image {
+    position: relative;
+}
+.phone-image {
+    width: 300px;
+}
+.laptop-image {
+    width: 400px;
+    position: absolute;
+    top: 90px;
+    left: -325px; /* Modified from -150px to -200px for more space */
+    z-index: 1;
+}
+
+.main-main{
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.main-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.contact-info {
+  width: 50%;
+  background: #f0fff4;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid #e6e6e6;
+}
+
+.contact-info h2 {
+  color: #d64545;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #2f4f4f;
+}
+
+.contact-info a {
+  color: #2f4f4f;
+  text-decoration: none;
+}
+
+.contact-form {
+  width: 55%;
+  padding: 40px;
+}
+
+.contact-form h2 {
+  color: #008000;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+textarea {
+  height: 100px;
+}
+
+button {
+  width: 100%;
+  background-color: #d64545;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6347;
+}
+.avatar {
+    width: 120px;           /* Ensure width and height are equal for a perfect circle */
+    height: 120px;
+    border-radius: 50%;      /* Makes the image round */
+    object-fit: cover;       /* Ensures the image is scaled properly inside the circle */
+    border: 4px solid #ff6347; /* Optional: Adds a Christmas-themed border */
+    margin-bottom: 15px;
+}
+
   @media(max-width: 1310px){
     .align-box{
       flex-direction: column-reverse;
@@ -503,6 +666,9 @@ color: #fff;
       padding: 0px 30px;
       gap: 0px;
     }
+    .laptop-image {
+      z-index: -1;
+  }
   }
 
   @media(max-width: 950px){
