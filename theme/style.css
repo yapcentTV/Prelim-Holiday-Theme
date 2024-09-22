@@ -15,11 +15,11 @@ body, html
   -webkit-overflow-scrolling: touch;
   background: #eaf4f4;
   max-height: max-content;
-  cursor: url(../images/cursor.png), auto!important;
+  cursor: url(../design/cursor.png), auto!important;
 }
 
 a, i, input, img, h1, button{
-  cursor: url(../img/thumb.png), auto!important;
+  cursor: url(../design/thumb.png), auto!important;
 }
 
 a{
