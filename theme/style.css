@@ -18,8 +18,8 @@ body, html
   cursor: url(../images/cursor.png), auto!important;
 }
 
-a, i, button{
-  cursor: url(../images/thumb.png), auto!important;
+a, i, input, img, h1, button{
+  cursor: url(../img/thumb.png), auto!important;
 }
 
 a{
@@ -436,7 +436,8 @@ color: #fff;
     }
   
   .cg .box .head-box:active{
-  transform: scale(0.9);
+    background: #F5F5F5;
+    transform: scale(0.9);
   }
 
   .cg .box .head-box-1{
@@ -459,6 +460,7 @@ color: #fff;
     }
 
   .cg .box .head-box-1:active{
+    background: #F5F5F5;
     transform: scale(0.9);
     }
 
@@ -556,9 +558,19 @@ color: #fff;
 }
 .download-buttons .app-store-button {
     background-color: #85c1e9;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 500ms;
+}
+.download-buttons .app-store-button:active{
+  transform: scale(0.9);
 }
 .download-buttons .google-play-button {
     background-color: #58d68d;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 500ms;
+}
+.download-buttons .google-play-button:active{
+  transform: scale(0.9);
 }
 .download-buttons a img {
     height: 30px;
@@ -667,11 +679,16 @@ textarea {
   border-radius: 25px;
   font-size: 16px;
   cursor: pointer;
+  transition: 500ms;
 }
 
 .send:hover {
   background-color: #ff6347;
 }
+.send:active{
+  transform: scale(0.9);
+}
+
 .avatar {
     width: 120px;           /* Ensure width and height are equal for a perfect circle */
     height: 120px;
