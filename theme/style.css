@@ -26,6 +26,19 @@ a{
   text-decoration: none;
 }
 
+::-webkit-scrollbar{
+  width: 8px;
+  background: #283618;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, #022b3a, aliceblue);
+  border-radius: 0px 0px 30px 30px;
+}
+::selection{
+  color: #faa916;
+  background: #283618;
+}
+
 .banner{
   display: flex;
   position: fixed;
@@ -476,6 +489,14 @@ color: #fff;
     color: #003554;
   }
 
+  .cg .box .head-box-1 .ox{
+    color: #bc6c25;
+    padding-left: 10px;
+  }
+  .cg .box .head-box-1 .ox:hover{
+    color: #dda15e;
+  }
+
   .cg .box h1{
     display: flex;
     position: relative;
@@ -672,7 +693,7 @@ textarea {
 
 .send {
   width: 100%;
-  background-color: #d64545;
+  background: #bc6c25;;
   color: white;
   border: none;
   padding: 12px;
@@ -683,7 +704,7 @@ textarea {
 }
 
 .send:hover {
-  background-color: #ff6347;
+  background-color: #dda15e;
 }
 .send:active{
   transform: scale(0.9);
