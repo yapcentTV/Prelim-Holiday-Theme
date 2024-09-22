@@ -449,8 +449,11 @@ color: #fff;
   }
 
   .cg .box .head-box-1 i{
-    color: #660708;
+    color: #274c77;
     padding-left: 10px;
+  }
+  .cg .box .head-box-1 i:hover{
+    color: #003554;
   }
 
   .cg .box h1{
