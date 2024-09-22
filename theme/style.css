@@ -534,7 +534,7 @@ color: #fff;
     width: 100%;
   }
 
-  .cg .box .head-box-p-line{
+  .cg .box .head-box-or-line{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -546,6 +546,15 @@ color: #fff;
     height: 25px;
     width: 100%;
   }
+
+  .cg .box .head-box-or-line .or{
+    position: relative;
+    object-fit: contain;
+    object-position: center;
+    height: 50px;
+    width: 50px;
+  }
+
 
 .hero {
     display: flex;
