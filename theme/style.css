@@ -29,7 +29,7 @@ a{
 .banner{
   display: flex;
   position: fixed;
-  background: #fdfffc;
+  background: #F5F5F5;
   top: 0%;
   width: 100%;
   height: 80px;
@@ -281,9 +281,7 @@ color: #fff;
     align-items: center;
     position: relative;
     justify-content: left;
-    background: #3a5a40;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 10px;
     row-gap: 10px;
     height: max-content;
@@ -292,13 +290,11 @@ color: #fff;
 
   .bg .box .head-box-1{
     display: flex;
-    
     align-items: center;
     position: relative;
     justify-content: left;
     background: #eaf4f4;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 0px;
     height: 75px;
     width: 100%;
@@ -309,7 +305,7 @@ color: #fff;
     flex-direction: column;
     align-items: center;
     position: relative;
-    background: #eaf4f4;
+    background: #F5F5F5;
     justify-content: center;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -322,9 +318,9 @@ color: #fff;
     display: flex;
     position: relative;
     padding: 10px 3dvw;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
     font-weight: 700;
+    text-shadow: 2px 2px aliceblue;
   }
 
   .bg .box .sub-box{
@@ -333,9 +329,7 @@ color: #fff;
     align-items: center;
     position: relative;
     justify-content: left;
-    background: #3a5a40;
     border-radius: 20px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 10px;
     row-gap: 10px;
     height: max-content;
@@ -350,7 +344,6 @@ color: #fff;
     justify-content: center;
     background: #eaf4f4;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 0px;
     height: 50px;
     width: 100%;
@@ -361,7 +354,7 @@ color: #fff;
     flex-direction: column;
     align-items: center;
     position: relative;
-    background: #eaf4f4;
+    background: #F5F5F5;
     justify-content: center;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -386,6 +379,7 @@ color: #fff;
     padding: 20px 3dvw;
     font-size: 25px;
     font-weight: 700;
+    text-shadow: 2px 2px aliceblue;
   }
 
   .cg{
@@ -416,11 +410,9 @@ color: #fff;
     align-items: start;
     justify-content: start;
     height: max-content;
-    background: #3a5a40;
     border-radius: 25px;
     row-gap: 20px;
     padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     width: 100%;
   }
 
@@ -430,9 +422,9 @@ color: #fff;
     align-items: center;
     position: relative;
     justify-content: center;
-    background: #eaf4f4;
-    border-radius: 15px;
+    background: #F5F5F5;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 15px;
     padding: 20px;
     height: 50px;
     width: 100%;
@@ -444,7 +436,7 @@ color: #fff;
     align-items: center;
     position: relative;
     justify-content: center;
-    background: #eaf4f4;
+    background: #F5F5F5;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 20px;
@@ -464,7 +456,7 @@ color: #fff;
   .cg .box h1{
     display: flex;
     position: relative;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     padding: 20px;
   }
@@ -487,7 +479,6 @@ color: #fff;
     background: #eaf4f4;
     justify-content: center;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 20px;
     height: 200px;
     width: 100%;
@@ -501,7 +492,6 @@ color: #fff;
     background: #eaf4f4;
     justify-content: center;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 20px;
     height: 25px;
     width: 100%;
