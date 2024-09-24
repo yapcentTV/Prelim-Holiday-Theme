@@ -334,6 +334,7 @@ color: #fff;
     padding: 20px;
     height: 200px;
     width: 100%;
+    overflow-y: hidden;
   }
 
   .bg .box h1{
@@ -382,6 +383,7 @@ color: #fff;
     padding: 20px;
     height: 200px;
     width: 100%;
+    overflow-y: hidden;
   }
 
   .bg .box p{
@@ -549,6 +551,7 @@ color: #fff;
     position: relative;
     background: #F5F5F5;
     justify-content: center;
+    overflow-y: hidden;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 20px;
@@ -792,4 +795,56 @@ textarea {
     {
       font-size: 1.8rem;
     }
+
+    .bg .box p{
+      font-size: 14px;
+   }
+
+   .cg .box p{
+    font-size: 14px;
+ }
+   
+}
+@media(max-width: 420px){
+
+  .bg .box h1{
+    font-size: 30px;
+  }
+  .bg .box h3{
+    font-size: 20px;
+  }
+
+  .bg .box p{
+    font-size: 13px;
+ }
+
+ .cg .box .head-box-1 a h1{
+   font-size: 17px;
+   padding: 20px 3dvw;
+ }
+ .cg .box p{
+  font-size: 13px;
+}
+}
+
+@media(max-width: 370px){
+
+  .bg .box h1{
+    font-size: 30px;
+  }
+  .bg .box h3{
+    font-size: 20px;
+  }
+
+  .bg .box p{
+    font-size: 12px;
+ }
+
+ .cg .box .head-box-1 a h1{
+   font-size: 14px;
+   padding: 20px 3dvw;
+ }
+ .cg .box p{
+  font-size: 12px;
+}
 }
