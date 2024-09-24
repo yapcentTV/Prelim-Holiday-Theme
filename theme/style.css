@@ -394,6 +394,7 @@ color: #fff;
     font-weight: 400;
     text-align: justify;
     text-justify: inter-word;
+    line-height: 30px;
   }
   
   .bg .box h3{
@@ -542,6 +543,7 @@ color: #fff;
     font-weight: 400;
     text-align: justify;
     text-justify: inter-word;
+    line-height: 30px;
   }
 
   .cg .box .head-box-p{
@@ -789,15 +791,31 @@ textarea {
     }
   }
   
-  @media(max-width: 450px){
+  @media(max-width: 550px){
+    
+    .logo a
+    {
+      font-size: 1.8rem;
+    }
+
+    .bg .box p{
+      font-size: 15px;
+   }
+
+   .cg .box p{
+    font-size: 15px;
+ }
+}
+
+  @media(max-width: 470px){
   
     .banner{
       height: 50px;
     }
 
     nav{
-    padding: 5px 20px;
-}
+    padding: 10px 20px;
+  }
     
     .logo a
     {
@@ -806,13 +824,15 @@ textarea {
 
     .bg .box p{
       font-size: 14px;
+      line-height: 20px;
    }
 
    .cg .box p{
     font-size: 14px;
+    line-height: 20px;
  }
-   
 }
+
 @media(max-width: 420px){
 
   .bg .box h1{
@@ -824,6 +844,7 @@ textarea {
 
   .bg .box p{
     font-size: 13px;
+    line-height: 20px;
  }
 
  .cg .box .head-box-1 a h1{
@@ -832,6 +853,7 @@ textarea {
  }
  .cg .box p{
   font-size: 13px;
+  line-height: 20px;
 }
 }
 
@@ -846,6 +868,7 @@ textarea {
 
   .bg .box p{
     font-size: 12px;
+    line-height: 15px;
  }
 
  .cg .box .head-box-1 a h1{
@@ -854,5 +877,6 @@ textarea {
  }
  .cg .box p{
   font-size: 12px;
+  line-height: 15px;
 }
 }
