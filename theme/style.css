@@ -791,6 +791,14 @@ textarea {
   
   @media(max-width: 450px){
   
+    .banner{
+      height: 50px;
+    }
+
+    nav{
+    padding: 5px 20px;
+}
+    
     .logo a
     {
       font-size: 1.8rem;
