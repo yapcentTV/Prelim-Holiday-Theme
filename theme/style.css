@@ -259,6 +259,7 @@ color: #fff;
     position: relative;
     align-items: center;
     justify-content: space-between;
+    height: 75dvh;
     padding: 20px 30px;
     column-gap: 50px;
   }
@@ -267,7 +268,6 @@ color: #fff;
     position: relative;
     align-items: center;
     justify-content: center;
-    min-height: 100dvh;
     width: 100%;
   }
 
@@ -761,6 +761,9 @@ textarea {
 
 @media(max-width: 1700px){
  
+  .align-box{
+    min-height: 100dvh;
+  }
 }
 
   @media(max-width: 1310px){
