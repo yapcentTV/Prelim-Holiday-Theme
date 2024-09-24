@@ -14,17 +14,13 @@ body, html
   overflow-x: hidden!important;
   -webkit-overflow-scrolling: touch;
   background: #eaf4f4;
-  max-height: max-content;
-  width: 100%;
+  min-height: max-content;
   cursor: url(../design/cursor.png), auto!important;
+  width: 100%;
 }
 
 a, i, input, img, h1, button{
   cursor: url(../design/thumb.png), auto!important;
-}
-
-a{
-  text-decoration: none;
 }
 
 ::-webkit-scrollbar{
@@ -289,7 +285,17 @@ color: #fff;
     padding: 10px;
     row-gap: 20px;
     height: max-content;
+    overflow: hidden;
     width: 100%;
+  }
+
+  .bg .box::before{
+    position: absolute;
+    top: 0px; bottom: 0px;
+    left: 0px; right: 0px;
+    content: '';
+    border-radius: 25px;
+    border-image:  fill 0 linear-gradient(#0001, #0009);
   }
 
   .bg .box .head-box{
@@ -418,9 +424,20 @@ color: #fff;
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 10px;
+    overflow: hidden;
     height: max-content;
     width: 100%;
   }
+
+  .cg .box-main::before{
+    position: absolute;
+    top: 0px; bottom: 0px;
+    left: 0px; right: 0px;
+    content: '';
+    border-image:  fill 0 linear-gradient(#0001, #000);
+  }
+
+
 
   .cg .box{
     display: flex;
@@ -472,6 +489,10 @@ color: #fff;
     height: 50px;
     width: 100%;
     transition: 500ms;
+  }
+
+  .cg .box .head-box-1 a{
+    text-decoration: none;
   }
 
   .cg .box .head-box-1:hover{
@@ -555,7 +576,6 @@ color: #fff;
     width: 50px;
   }
 
-
 .hero {
     display: flex;
     position: relative;
@@ -585,8 +605,8 @@ color: #fff;
 .download-buttons a {
     display: inline-flex;
     align-items: center;
+    color: aliceblue;
     text-decoration: none;
-    color: #fff;
     padding: 10px 15px;
     border-radius: 8px;
     font-size: 14px;
@@ -734,6 +754,10 @@ textarea {
     margin-bottom: 15px;
 }
 
+@media(max-width: 1700px){
+ 
+}
+
   @media(max-width: 1310px){
     .align-box{
       flex-direction: column-reverse;
@@ -753,6 +777,12 @@ textarea {
     }
     .menu-button{
       display: block;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .single-pricing {
+      margin-bottom: 30px;
     }
   }
   
