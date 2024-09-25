@@ -295,7 +295,7 @@ color: #fff;
     left: 0px; right: 0px;
     content: '';
     border-radius: 25px;
-    border-image:  fill 0 linear-gradient(#0001, #0009);
+    border-image:  fill 0 linear-gradient(#0002, #000);
   }
 
   .bg .box .head-box{
